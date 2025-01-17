@@ -20,6 +20,27 @@
                 "size": "40px"
             }
         ],
+
+        "LangTech": [
+            {
+                "Name": "Python"
+            },
+            {
+                "Name": "Django"
+            },
+            {
+                "Name": "Docker/DockerCompose"
+            },
+            {
+                "Name": "HTML & CSS"
+            },
+            {
+                "Name": "JavaScript"
+            },
+            {
+                "Name": "Git/Github/Gitlab"
+            }           
+        ],
         "Skills": [
             {
                 "Name": "Self Study"

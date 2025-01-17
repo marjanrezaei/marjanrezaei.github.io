@@ -9,7 +9,9 @@ $.getJSON('details.json', function (data) {
     $('#Email').text(data.Profile.General.Email);
     $("a#Email").attr("href", `mailto:${data.Profile.General.Email}`);
     $('#Address').text(data.Profile.General.Address);
-    
+    for (let skill of data.Profile.LangTech) {
+      $("#LangTech").append("<div class=\"title text-white\">" + skill.Name + "</div>");
+    }
     for (let skill of data.Profile.Skills) {
       $("#Skills").append("<div class=\"title text-white\">" + skill.Name + "</div>");
     }
