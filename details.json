@@ -14,9 +14,10 @@
                 "link": "https://www.linkedin.com/in/marjanrezaei/"
             },
             {
-                "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+                "icon": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",   
                 "name": "Github",
-                "link": "https://github.com/marjanrezaei"
+                "link": "https://github.com/marjanrezaei",
+                "size": "40px"
             }
         ],
         "Skills": [
