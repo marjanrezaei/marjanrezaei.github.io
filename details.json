@@ -35,8 +35,8 @@
         ],
         "Educations": [
             {
-                "from": 2012,
-                "to": 2016,
+                "from": "2012",
+                "to": "2016",
                 "grade": "bachelor",
                 "in": "Computer Software Engineering",
                 "institute": "Shiraz Pasargad University",
@@ -53,7 +53,6 @@
                 "mode": "Part time Remote",
                 "descriptions": "Part time Developer"
             }
-        ],
-        "Achievements": []
+        ]
     }
 }

@@ -11,9 +11,7 @@ $.getJSON('details.json', function (data) {
     //$('#Phone').text(data.Profile.General.Phone);
     //$('#BirthDate').text(data.Profile.General.BirthDate);
     $('#Address').text(data.Profile.General.Address);
-    for (let skill of data.Profile.LangTech) {
-      $("#LangTech").append("<div class=\"title text-white\">" + skill.Name + "</div>");
-    }
+    
     for (let skill of data.Profile.Skills) {
       $("#Skills").append("<div class=\"title text-white\">" + skill.Name + "</div>");
     }
@@ -54,26 +52,5 @@ $.getJSON('details.json', function (data) {
         </div>                    
         </div>`);
     }
-    if (data.Profile.Achievements.length > 0) {
-      ('#Awards').text(`<div class="timeline-box mt-4">
-                <h4 class="resume-experience-title">Awards:</h4>
-                <div id="Achievements"></div>
-              </div>`);
-    }
-    for (let object of data.Profile.Achievements) {
-      $("#Achievements").append(`<div class="jobster-candidate-timeline">
-                  <div class="jobster-timeline-item">
-                    <div class="jobster-timeline-cricle">
-                      <i class="far fa-circle"></i>
-                    </div>
-                    <div class="jobster-timeline-info">
-                      <div class="dashboard-timeline-info">
-                        <span class="jobster-timeline-time">${object.time}</span>
-                        <h6 class="mb-2">${object.title}</h6>                          
-                        <p class="mt-2">${object.descriptions}</p>
-                      </div>
-                    </div>
-                  </div> 
-                </div>`)
-    }
+   
   });
