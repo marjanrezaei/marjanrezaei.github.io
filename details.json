@@ -40,16 +40,16 @@
                 "grade": "bachelor",
                 "in": "Computer Software Engineering",
                 "institute": "Shiraz Pasargad University",
-                "descriptions": ""
+                "descriptions": "freelancer"
             }
         ],
         "Work": [
             {
                 "from": "2018-10",
                 "to": "2021-9",
-                "title": "",
-                "city": "",
-                "company": "",
+                "title": "free lance",
+                "city": "shiraz",
+                "company": "marjan company",
                 "mode": "Part time Remote",
                 "descriptions": "Part time Developer"
             }
