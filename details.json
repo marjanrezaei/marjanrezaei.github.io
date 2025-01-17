@@ -1,0 +1,59 @@
+{
+    "Profile": {
+        "General": {
+            "Avatar": "https://avatars.githubusercontent.com/u/29748439?v=4",
+            "FirstName": "Marjan",
+            "LastName": "Rezaei",
+            "Email": "rezaei.marjann@gmail.com",
+            "Address": "shiraz."
+        },
+        "Socials": [
+            {
+                "icon": "https://icons-for-free.com/iconfiles/png/512/linkedin+square+icon-1320168278649782468.png",
+                "name": "Linkedin",
+                "link": "https://www.linkedin.com/in/marjanrezaei/"
+            },
+            {
+                "icon": "https://icons-for-free.com/iconfiles/png/512/github+logo+social+social+network+website+icon-1320191930698657711.png",
+                "name": "Github",
+                "link": "https://github.com/marjanrezaei"
+            }
+        ],
+        "Skills": [
+            {
+                "Name": "Self Study"
+            },
+            {
+                "Name": "Curious"
+            },
+            {
+                "Name": "Fast Learner"
+            },
+            {
+                "Name": "Creative"
+            }
+        ],
+        "Educations": [
+            {
+                "from": 2012,
+                "to": 2016,
+                "grade": "bachelor",
+                "in": "Computer Software Engineering",
+                "institute": "Shiraz Pasargad University",
+                "descriptions": ""
+            }
+        ],
+        "Work": [
+            {
+                "from": "2018-10",
+                "to": "2021-9",
+                "title": "",
+                "city": "",
+                "company": "",
+                "mode": "Part time Remote",
+                "descriptions": "Part time Developer"
+            }
+        ],
+        "Achievements": []
+    }
+}
