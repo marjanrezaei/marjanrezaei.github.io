@@ -8,8 +8,8 @@ $.getJSON('details.json', function (data) {
     $('title').text(`${data.Profile.General.FirstName} ${data.Profile.General.LastName} Resume`);
     $('#Email').text(data.Profile.General.Email);
     $("a#Email").attr("href", `mailto:${data.Profile.General.Email}`);
-    $('#Phone').text(data.Profile.General.Phone);
-    $('#BirthDate').text(data.Profile.General.BirthDate);
+    //$('#Phone').text(data.Profile.General.Phone);
+    //$('#BirthDate').text(data.Profile.General.BirthDate);
     $('#Address').text(data.Profile.General.Address);
     for (let skill of data.Profile.LangTech) {
       $("#LangTech").append("<div class=\"title text-white\">" + skill.Name + "</div>");
